@@ -1,0 +1,63 @@
+// Mains: 141.4213 | 179.605 | 197.99
+Vp_mains = 179.605;
+f_mains = 60;
+
+// Load
+R_load1 = 15;
+R_load2 = 30;
+
+// Capacitor
+C = 680u;
+RC = 21m;
+
+// Inductor
+L = 100u;
+RL = 25m;
+
+// Diodes D1, D2, D3 and D4
+Vf = 0.82;
+Rf = 68.3m;
+Cj = 430p;
+
+// Transformer
+RT1 = 47.11m;
+LT1 = 4.66u;
+N1 = 21;
+RT2 = 19.73m;
+LT2 = 2.07u;
+N2 = 14;
+Lm = 2162u;
+
+//Transistors Q1 and Q2
+RDS = 0.55;
+Crss = 120p;
+V_Q_BD = 2;
+R_Q_BD = 10m;
+
+// Bulk capacitor
+C_Bulk = 1200u;
+ESR_Bulk = 60m;
+
+// Diode brigde
+V_DBf = 0.55;
+R_DBf = 5m;
+C_DBj = 25p;
+
+// Microcontroller
+fs = 100k;
+Vref = 20;
+Nma = 10;
+
+// ADC
+bits_adc = 10;
+V_min_adc = 0;
+V_max_adc = 5;
+
+// DAC
+bits_dac = 5;
+V_min_dac = 0;
+V_max_dac = 1;
+
+// Noise
+Vn_pp = 0.016;
+Vn_off = -0.008;
